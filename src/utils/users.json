@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Sanchit Kumar",
+    "phone": 8802332239,
+    "email": "sanchit0160@gmail.com",
+    "password": "123456"
+  },
+  {
+    "name": "Satya Priya Rishabh",
+    "phone": 9643585655,
+    "email": "satyapriyarishabh@gmail.com",
+    "password": "123456"
+  },
+  {
+    "name": "Aman Jha",
+    "phone": 9971394910,
+    "email": "amanjha22@gmail.com",
+    "password": "123456"
+  },
+  {
+    "name": "Nikhil Yadav",
+    "phone": 8076367833,
+    "password": "123456"
+  },
+  {
+    "name": "Priya Patel",
+    "phone": 8765432109,
+    "email": "priya.patel@example.com",
+    "password": "securepass"
+  },
+  {
+    "name": "Rahul Singh",
+    "phone": 7654321098,
+    "email": "rahul.singh@example.com",
+    "password": "rahulpass",
+    "contacts": "[{\"contactName\":\"Anita Verma\",\"contactPhone\":7654321097}]"
+  },
+  {
+    "name": "Sneha Das",
+    "phone": 6543210987,
+    "email": "sneha.das@example.com",
+    "password": "snehapass",
+    "contacts": "[{\"contactName\":\"Vikram Jha\",\"contactPhone\":6543210986}]"
+  },
+  {
+    "name": "Vivek Kumar",
+    "phone": 5432109876,
+    "email": "vivek.kumar@example.com",
+    "password": "vivekpass",
+    "contacts": "[{\"contactName\":\"Shweta Singh\",\"contactPhone\":5432109875}]"
+  },
+  {
+    "name": "Anjali Reddy",
+    "phone": 4321098765,
+    "email": "anjali.reddy@example.com",
+    "password": "anjalipass",
+    "contacts": "[{\"contactName\":\"Kiran Kumar\",\"contactPhone\":4321098764}]"
+  },
+  {
+    "name": "Arjun Gupta",
+    "phone": 3210987654,
+    "email": "arjun.gupta@example.com",
+    "password": "arjunpass",
+    "contacts": "[{\"contactName\":\"Tanvi Sharma\",\"contactPhone\":3210987653}]"
+  },
+  {
+    "name": "Neha Kapoor",
+    "phone": 2109876543,
+    "email": "neha.kapoor@example.com",
+    "password": "nehapass",
+    "contacts": "[{\"contactName\":\"Rahul Mehra\",\"contactPhone\":2109876542}]"
+  },
+  {
+    "name": "Aryan Yadav",
+    "phone": 1098765432,
+    "email": "aryan.yadav@example.com",
+    "password": "aryanpass",
+    "contacts": "[{\"contactName\":\"Ananya Singh\",\"contactPhone\":1098765431}]"
+  },
+  {
+    "name": "Pooja Sharma",
+    "phone": 8765432101,
+    "email": "pooja.sharma@example.com",
+    "password": "poojapass",
+    "contacts": "[{\"contactName\":\"Amit Verma\",\"contactPhone\":8765432100}]"
+  }
+]

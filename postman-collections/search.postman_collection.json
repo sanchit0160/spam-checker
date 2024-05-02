@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "bf323cbe-4803-409a-b6c7-f1c444f30781",
+		"name": "search",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "2986545"
+	},
+	"item": [
+		{
+			"name": "markSpam",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InBob25lIjo1NDMyMTA5ODc2fSwiaWF0IjoxNzA0ODgxODM2LCJleHAiOjE3MDUyNDE4MzZ9.9RAPc-q5-amy01b-rqeQ35SUpJeVWwDMZ9fUWk3TMas",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phone\": 8802334619\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:5000/v1/spam/markSpam"
+			},
+			"response": []
+		},
+		{
+			"name": "unmarkSpam",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InBob25lIjo1NDMyMTA5ODc2fSwiaWF0IjoxNzA0ODgxODM2LCJleHAiOjE3MDUyNDE4MzZ9.9RAPc-q5-amy01b-rqeQ35SUpJeVWwDMZ9fUWk3TMas",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phone\": 8802334620\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:5000/v1/spam/unmarkSpam"
+			},
+			"response": []
+		},
+		{
+			"name": "isSpam",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InBob25lIjo4ODAyMzMyMjM5fSwiaWF0IjoxNzA0ODQxOTQxLCJleHAiOjE3MDUyMDE5NDF9.AFEAY6KG6JrvyEK7xXoWwUN4Z9Ymf-pwc78Ax9o-S8k",
+						"type": "text"
+					}
+				],
+				"url": "localhost:5000/v1/spam/isSpam/8802334620"
+			},
+			"response": []
+		}
+	]
+}

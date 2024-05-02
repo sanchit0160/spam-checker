@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "8620c0c2-c371-4acc-a0fb-2a46e766425b",
+		"name": "spammer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "2986545"
+	},
+	"item": [
+		{
+			"name": "byName",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InBob25lIjo4ODAyMzMyMjM5fSwiaWF0IjoxNzA0ODgzNDM4LCJleHAiOjE3MDUyNDM0Mzh9.yaYtL2nb1F82aa_ybPlQun3QRWqvixiXgH7bWBEJojc",
+						"type": "text"
+					}
+				],
+				"url": "localhost:5000/v1/search/byName/punch"
+			},
+			"response": []
+		},
+		{
+			"name": "byPhone",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InBob25lIjo4ODAyMzMyMjM5fSwiaWF0IjoxNzA0ODQxOTQxLCJleHAiOjE3MDUyMDE5NDF9.AFEAY6KG6JrvyEK7xXoWwUN4Z9Ymf-pwc78Ax9o-S8k",
+						"type": "text"
+					}
+				],
+				"url": "localhost:5000/v1/search/byPhone/7011169153"
+			},
+			"response": []
+		}
+	]
+}
